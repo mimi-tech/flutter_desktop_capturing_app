@@ -39,8 +39,8 @@ class TimerPage extends StatelessWidget {
                 builder: (context, state) {
                   return Center(
                     child: Text(
-                      //'Elapsed Times: ${state.duration} seconds\n Please review the README file to ensure that all setup steps have been completed correctly. Thank you.',
-                      'Elapsed Times: ${state.duration} seconds',
+                      'Elapsed Times: ${state.duration} seconds\n Please review the README file to ensure that all setup steps have been completed correctly. Thank you.',
+
                      textAlign: TextAlign.center,
                       style: const TextStyle(fontSize: 24, color: Colors.white),
                     ),
